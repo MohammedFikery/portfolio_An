@@ -1,0 +1,12 @@
+.carouselSlide1{
+    background-image: url(/assets/images/img_bg_1-PzvG2r05.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.carouselSlide2{
+    background-image: url(/assets/images/img_bg_2-DzCs5o-0.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}

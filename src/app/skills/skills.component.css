@@ -1,0 +1,19 @@
+.skill-label {
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+
+    .progress {
+      height: 8px;
+      background-color: #f1f1f1;
+    }
+
+    .progress-value {
+      font-size: 14px;
+      font-weight: bold;
+      margin-left: 5px;
+    }
+
+    .skill-wrapper {
+      margin-bottom: 25px;
+    }

@@ -1,0 +1,27 @@
+.header{
+     font-weight: 700;
+     font-size: 1.375rem;
+}
+.side-nav a {
+    position: relative;
+    margin-block: 10px;
+    display: inline-block;
+    color: black;
+}
+
+.side-nav a::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 0;
+    background-color: rgb(101, 101, 174);
+    transition: width 2s ease;
+}
+
+.side-nav a:hover::after {
+    width: 40%;
+}
+

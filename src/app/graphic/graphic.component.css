@@ -1,0 +1,44 @@
+.card-layer {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #f44336; 
+}
+
+.card-content {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: #0dcaf0;
+    padding: 20px;
+    transition: opacity 0.5s;
+}
+
+.card-image {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1s;
+}
+
+.card-image:hover {
+    opacity: 0;
+}
+.cart-background1{
+    background-image: url('../../assets/images/img-1-C4nS0eD8.jpg');
+}
+.cart-background2{
+    background-image: url('../../assets/images/img-2-D-4H1m4L.jpg');
+}
+.cart-background3{
+    background-image: url('../../assets/images/img-3-pR2ZEVY9.jpg');
+}
+.cart-background4{
+    background-image: url('../../assets/images/img-4-tHccITd-.jpg');
+}
+.card-content{
+    cursor: pointer;
+}
